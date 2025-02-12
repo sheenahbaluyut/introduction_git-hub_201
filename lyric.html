@@ -2,28 +2,23 @@
     <head>
         <title>Lover</title>
 </head>
-<body style="text=align: center;">
+<body style="text-align: center;">
     <h1>Lover~</h1>
 
     <img src="taylor.jpg" alt="taylor image" />
     <div>
         <!--onclick, .innerHTML='Your my Lover'-->
-        <p 
-            id="demo" 
-            onclick="document
-            .getElementaryById('demo')
-            .innerHTML='Your my Lover'"
-         Can I go where you go?
-        </p>
+    <p id="demo" onclick="document.getElementById('demo').innerHTML='Your my Lover'" > Can I go where you go?
+    </p>
 
         <!-- ondblick, .style.backgroundColor='pink'-->
-        <p>Can we always be this close forever and ever?</p>
+        <p id="demo1" ondblclick="document.getElementById('demo1').style.backgroundColor='red'">Can we always be this close forever and ever?</p>
 
         <!-- onmouseover, .style.fontSize='60px' -->
-        <p>And ah, take me out, and take me home</p>
+        <p id="demo2"onmouseover="document.getElementById('demo2').style.fontSize='60px'">And ah, take me out, and take me home</p>
 
         <!-- onmouseout, .style.color='orange' -->
-        <p>You're my, my, my, my Lover</p>
+        <p id="demo3" onmouseout="document.getElementById('demo3').style.color='blue'">You're my, my, my, my Lover</p>
         
     </div>
 </body>
